@@ -14,17 +14,17 @@ class View:
     # is printed to stdout.
     def callback(self, widget, data):
         if data==1:
-            cm.take_image("ref5.png")
+            cm.take_image("Test Images/ref5.png")
             #print "%d was pressed" % data
         if data==2:
-            cm.take_image("line5.png")
+            cm.take_image("Test Images/line5.png")
             #print "%d was pressed" % data
         if data==3:
-            ref.find_ref("ref5.png")
+            ref.find_ref("Test Images/ref5.png")
             #print "%d was pressed" % data
 
         if data==4:
-            line.find_bend("line5.png")
+            line.find_bend("Test Images/line5.png")
             #print "%d was pressed" % data
         
 
