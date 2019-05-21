@@ -8,7 +8,7 @@ import camera_take_pic as cm
 import line
 
 
-class HelloWorld2:
+class View:
 
     # Our new improved callback.  The data passed to this method
     # is printed to stdout.
@@ -38,7 +38,7 @@ class HelloWorld2:
         self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
 
         # This is a new call, which just sets the title of our
-        # new window to "Hello Buttons!"
+        # new window to "run Buttons!"
         self.window.set_title("Test Program")
 
         # Here we just set a handler for delete_event that immediately
@@ -116,5 +116,5 @@ def main():
     gtk.main()
 
 if __name__ == "__main__":
-    hello = HelloWorld2()
+    run = View()
     main()
